@@ -4,10 +4,14 @@
          /* background-color: black; */
          padding: 0%;
          margin: 0%;
-         background-image: url("../images/bg1.jpg")
+         background-image: url("../images/p1\ \(1\).jpg");
      
     }
 
+    nav{
+
+      background-color: #00356B;
+    }
 
     nav li a{
 
@@ -35,96 +39,63 @@
       color: cornsilk;
     }
 
-    #text{
+    .row-content{
 
-     margin-top: 30%;
-     color: white;
-     text-align: center;
-     /* float: left; */
-     font-size: 22px;
-     font-family: 'Times New Roman', Times, serif;
-     text-align: justify; 
-
-    
-    }
-
-    .members{
-
-      border: 2px solid goldenrod;
-      transform: translate(0%, 0%);
       color: white;
-      margin-top: 4%;
+      margin: 130px 10px 80px 10px;
     }
 
-    .div{
-       
-      height: 70%;
-      width: 500px;
-      display: inline-block;
-      text-align: center;
-      /* padding-left: 12%; */
-      margin-bottom: 10%;
-      margin-left: 10%;
-      
-      
-     }
     
-    .Tdiv{
+  .card{
+  
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-image:url("../images/p1\ \(1\).jpg") ; 
+  }
 
-        border: 2px solid goldenrod;
-        border-radius: 15px;
-        margin-left: 10%;
-        
-       
-    } 
+  .card2{
 
-    .Instractor{
-        
-        border: 2px solid goldenrod;
-        border-radius: 15px;
-        margin-left: 50%;
-        padding: 2%;
+    width: 70%;
+    /* margin-left: 0%; */
+  }
 
-    }
+  h2 a{
 
-    .THead{
-
-        font-weight:bold; 
-        font-size: 40px; 
-        text-align: left;
-        color: orange;
-        font-family:fantasy;
-    } 
-
-    .THead2{
-
-        font-weight:bold; 
-        font-size: 40px; 
-        text-align: center;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        color:orange;
-    }        
+    text-decoration: none;
+    color: white;
     
-    #instructor{
+  }
 
-        margin-left: 23%;
-        
-    }
+  h2 a:hover{
 
-    img{
-        border: 2px solid wheat;
-        border-radius: 15px;
-        margin-top: 10px;
-    }
+    text-decoration: none;
+    color: black;
+  }
 
-    hr{
 
-        border: 0.5px solid white;
-    }
-     
-     .para{
+  #footer{
 
-         padding-left: 18%;
-         padding-right: 18%;
-     }
+      margin: 10% 0px 0px 0px;
+      background-color: #003152;
+      color: white;
+  }
 
+  footer li{
+
+    list-style: none;
+    display: inline;
+    padding: 8px;
+
+  }
+
+  footer li a{
+
+    color: gray;
+    font-size: 20px;
+  }
+
+  footer li a:hover{
+
+    color: wheat;
+  }
